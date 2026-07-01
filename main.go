@@ -15,7 +15,7 @@ import (
 
 var upgrader = websocket.Upgrader{CheckOrigin: func(r *http.Request) bool { return true }}
 
-const dataDir = "/home/xnet-admin/projects/archetype-relay/data"
+const dataDir = "./data"
 const pingInterval = 30 * time.Second
 const pongWait = 60 * time.Second
 

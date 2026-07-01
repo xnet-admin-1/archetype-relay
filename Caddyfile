@@ -1,0 +1,3 @@
+arch.xnet.ngo {
+    reverse_proxy localhost:9803
+}
